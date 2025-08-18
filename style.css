@@ -1,0 +1,160 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    color: #000;
+}
+
+h1 {
+    display: flex;
+    justify-content: left;
+    color: #000000;
+    align-items: left;
+    gap: 10px;
+    font-weight: weight;
+    font-style: bold;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: #000000;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.hero h1{
+    align-self: flex-start;
+}
+
+.hero h2 {
+    display: block;
+    text-align: center;
+}
+
+.hero a.button{
+    display: block;
+    margin: 1rem auto;
+    padding: 8px 18px;
+    font-size: 1.2em;
+    background-color: #000;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.hero a.button:hover {
+    background-color: #1b1b1b;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    gap: 0rem;
+}
+
+.site-title {
+    align-self: flex-start;
+    margin: 0 0 0.5rem 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+.subtitle {
+    margin: 0 0 1rem 0;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.product-row {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    box-sizing: border-box;
+}
+
+.product-info {
+    flex: 1;
+    text-align: center;
+}
+
+.product-media {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-media img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 6px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.button Download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    align-self: center;
+}
+
+.button:hover { background-color: #1b1b1b; }
+
+@media (max-width: 800px) {
+    .product-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .product-info {
+        text-align: center;
+    }
+}
