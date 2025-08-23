@@ -149,6 +149,24 @@ h3 {
 
 .button:hover { background-color: #1b1b1b; }
 
+.footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #eaeaea;
+    margin-top: 2rem;
+}
+
+.text {
+    color: #666;
+    text-decoration: none;
+}
+
+.text:hover {
+    text-decoration: underline;
+}
+
 @media (max-width: 800px) {
     .product-row {
         flex-direction: column;
