@@ -191,6 +191,22 @@ h3 {
     transition: box-shadow 0.3s;
 }
 
+.cs50 {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.webscraper {
+    border: 1px solid #eaeaea;
+    border-radius: 6px;
+    padding: 1rem;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
 .btns {
     gap: 1rem;
     display: flex;
